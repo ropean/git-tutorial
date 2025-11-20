@@ -22,6 +22,9 @@ export default function Header() {
             <Link href="/tutorials" className="text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 transition-colors">
               教程
             </Link>
+            <Link href="/exercises" className="text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 transition-colors">
+              练习题
+            </Link>
             <Link href="/playground" className="text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 transition-colors">
               练习场
             </Link>
