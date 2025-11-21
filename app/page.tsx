@@ -57,7 +57,7 @@ export default function Home() {
       {/* Features Section */}
       <section className="py-12">
         <h2 className="text-3xl font-bold text-center mb-12">特色功能</h2>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           <FeatureCard
             title="互动练习"
             description="在浏览器中直接练习 Git 命令，无需安装"
@@ -70,12 +70,12 @@ export default function Home() {
             icon="📚"
             href="/cheatsheet"
           />
-          <FeatureCard
+          {/* <FeatureCard
             title="视频教程"
             description="通过视频讲解，轻松理解复杂概念"
             icon="🎥"
             href="/videos"
-          />
+          /> */}
         </div>
       </section>
 
