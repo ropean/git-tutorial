@@ -12,11 +12,12 @@
   "author": "",
   "scripts": {
     "build": "next build",
-    "export": "next build",
     "dev": "next dev",
     "lint": "next lint",
     "start": "next start",
-    "ship": "wrangler pages deploy out --project-name=git-tutorial --branch=main"
+    "preview": "opennextjs-cloudflare build && opennextjs-cloudflare preview",
+    "ship": "wrangler pages deploy dist --project-name git-tutorial --branch main",
+    "ship:worker": "wrangler deploy"
   },
   "dependencies": {
     "@tailwindcss/typography": "^0.5.19",
@@ -39,6 +40,7 @@
     "typescript": "^5.9.3"
   },
   "devDependencies": {
+    "@opennextjs/cloudflare": "^1.13.1",
     "eslint": "^9.39.1",
     "eslint-config-next": "^16.0.3"
   }

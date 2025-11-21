@@ -3,7 +3,10 @@
     "allow": [
       "Bash(pnpm build:*)",
       "Bash(pnpm add:*)",
-      "Bash(test:*)"
+      "Bash(test:*)",
+      "Bash(npm run build:*)",
+      "Bash(npm install:*)",
+      "Bash(npx opennextjs-cloudflare build:*)"
     ],
     "deny": [],
     "ask": []
